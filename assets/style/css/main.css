@@ -1,0 +1,265 @@
+.main-indent p{
+	margin-left: 61px;
+	font-size: 30px;
+font-weight: 700;
+}
+#container {
+	width: 515px;
+	height:1424px;
+	background: url("../../img/802calv2.png") no-repeat scroll 0 0 transparent;
+
+	margin-left: auto; margin-right: auto; margin-top: 30px;
+}
+textarea, input:not([type="checkbox"]):not([type="radio"]):not([type="file"]){
+	box-shadow: none !important;
+}
+.block {
+	margin-left: 24px;
+	margin-top: 8px;
+	display: block;
+	float: left;
+	 position: relative;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	 border:none;
+}
+.block:first-child {
+	margin-top: 150px;
+}
+.small_slider_block {
+	width: 474px;
+	height: 136px;;
+	background-color: transparent;
+}
+.slider_block {
+	width: 474px;
+	height: 188px;
+	background-color: transparent;
+}
+.slider {
+	width: 355px;
+	margin-left: 16px;
+	margin-top: 161px;
+}
+#year_started .slider {
+margin-left: 16px;
+    margin-top: 111px;
+    width: 355px;
+    box-shadow: none;
+}
+
+#age .slider {
+	margin-left: 16px;
+    margin-top: 100px;
+    width: 355px;
+}
+
+ 
+#report {
+	 height: 45px;
+    margin-left: 266px;
+    width: 219px;
+	background-color: transparent;
+}
+#report a{
+	 height: 45px;
+    text-indent: -100000px;
+	display:block;
+    width: 219px;
+	cursor:pointer;
+}
+#report2 {
+	 height: 45px;
+    margin-left: 266px;
+    width: 219px;
+	background-color: transparent;
+}
+#report2 a{
+	 height: 45px;
+    text-indent: -100000px;
+	display:block;
+    width: 219px;
+	cursor:pointer;
+}
+#disclaimer {
+ margin-top: 20px;
+  font-family: raleway;
+}
+#disclaimer p{
+	font-size:12px;
+}
+
+#spent_block {
+	width: 474px;
+	 height: 146px;
+	background-color: transparent;
+}
+#calculation_block {
+	width: 474px;
+	height: 307px;
+	background-color: transparent;
+}
+.slider_count {
+	position:absolute;
+	background: transparent;
+	text-align: center;
+	height:40px;
+	color: #fff;
+	font-size: 18px;
+	letter-spacing:-1px;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+#year_started input[type=text] {
+ margin-left: 384px;
+    margin-top: 14px;
+    width: 68px;
+    font-family: raleway;
+}
+#age input[type=text] {
+  margin-left: 384px;
+    margin-top: 25px;
+    width: 68px;
+
+    font-family: raleway;
+}
+#total_packs input[type=text] {
+	width:57px;
+	margin-left: 392px;
+	margin-top: 64px;
+
+    font-family: raleway;
+}
+.empty {
+	width: 474px;
+	height: 188px;
+	margin-left: 5px;
+	position: absolute;
+}
+.full {
+	height: 188px;
+	margin-left: 5px;
+	position: absolute;
+}
+.range {
+	width: 474px;
+	height: 188px;
+	position: absolute;
+	margin-top: -6px;
+}
+#year_started .range {
+	background: url(../../cal/images/years_range.png) no-repeat;
+	 height: 121px;
+}
+#age .range {
+	background: url(../../cal/images/years_range.png) no-repeat;
+	 height: 135px;
+	 margin-top: -14px;
+}
+
+#total_packs .empty {
+	background: url(../../cal/images/total_empty.png) no-repeat;
+}
+#total_packs .full {
+	background: url(../../cal/images/total_full.png) no-repeat;
+}
+#total_packs .range {
+	background: url(../../cal/images/total_range.png) no-repeat;
+}
+#cost_per_pack .empty {
+	background: url(../../cal/images/cost_empty.png) no-repeat;
+}
+#cost_per_pack .full {
+	background: url(../../cal/images/cost_full.png) no-repeat;
+}
+#cost_per_pack .range {
+	background: url(../../cal/images/cost_range.png) no-repeat;
+}
+#cost_per_pack input[type=text] {
+	width:78px;
+	margin-left: 382px;
+	margin-top: 58px;
+
+    font-family: raleway;
+}
+#spent_block input[type=text] {
+	height:50px;
+	text-align: right;
+	width:450px;
+	font-family: raleway;
+	color: #fff;
+	font-size: 28px;
+	background: transparent;
+	letter-spacing:-1px;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+#nominal{
+ margin-top: 43px;
+}
+#calculation_block input[type=text] {
+	height:50px;
+	text-align: right;
+	width:450px;
+	color: #fff;
+	font-size: 28px;
+	background: transparent;
+	font-family: raleway;
+	letter-spacing:-1px;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+.started_plus {
+	 background: url("../../cal/images/plus.png") no-repeat scroll 0 0 transparent;
+    display: none;
+    height: 16px;
+    margin-left: 373px;
+    margin-top: 78px;
+    position: absolute;
+    width: 17px;
+}
+.age_plus {
+	 background: url("../../cal/images/plus.png") no-repeat scroll 0 0 transparent;
+    display: none;
+    height: 16px;
+    margin-left: 373px;
+    margin-top: 78px;
+    position: absolute;
+    width: 17px;
+}
+.total_plus {
+	margin-left: 375px;
+	margin-top: 133px;
+	width: 17px;
+	height: 16px;
+	position: absolute;
+	background: url(../../cal/images/plus.png) no-repeat;
+	display: none;
+}
+#six_months{
+	margin-top: 43px;
+}
+.cost_plus {
+	margin-left: 385px;
+	margin-top: 133px;
+	width: 17px;
+	height: 16px;
+	position: absolute;
+	background: url(../../cal/images/plus.png) no-repeat;
+	display: none;
+}
+input[type="submit"]{
+	background: none repeat scroll 0 0 transparent;
+    border: 0 none !important;
+	box-shadow:none !important;
+    cursor: pointer;
+    height: 47px;
+    text-indent: -1000px;
+    width: 218px;
+}
+
+

@@ -1,0 +1,306 @@
+a { border: none; }
+img {border: none;}
+body{margin:0;
+overflow-x:hidden; overflow-y:scroll}
+a:link, a:visited, a:active, a:hover{outline:0;}
+#container {
+	width: 520px;
+	margin-left: auto; margin-right: auto;
+	
+	font-size:14px;
+}
+.actions{
+	float: right;
+    text-align: right;
+    width: 280px;
+    margin-right: 10px;
+}
+.actions a{
+	margin:5px 2px;
+}
+.actions .title{ 
+	display: block;
+    float: left;
+    padding-top: 15px;
+    width: 150px;
+}
+
+.header_cal{
+	width: 976px;
+	background:url("../images/new_img/802reportv2.png") no-repeat scroll 0 0 transparent;
+	height: 255px;
+	margin-top: -20px;
+}
+
+
+.wrapper{
+
+}
+.calculation td{
+	border-bottom:thin solid;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+.content{
+	background:#20536C;
+	margin-left: auto; 
+	margin-right: auto; 
+   	padding: 0 10px;
+	width:520px;
+}
+.stats{
+    background: #ffffff;
+    border-radius: 10px;
+    color: #0094c6;
+    font-size: 18px;
+    height: 215px;
+    padding:20px;
+    position: relative;
+    top: -90px;
+    width: 501px;
+    margin-bottom: 20px;
+
+}
+.stats ul{
+	margin:0;
+	padding:0;
+	margin-left: 10px;
+}
+.stats ul li{
+	
+}
+.stats p {
+	margin:0;
+}
+.red { color:#ee393e; }
+
+.spent { margin-right:10px }
+.amount_time{
+	font-size: 25px;
+	font-weight: 800;
+	color:#20536C;
+}
+.calculation {
+	background:#0DBFEF;
+ 	float: left; 
+ 	border-radius: 10px;
+	width: 245px;
+	height: 320px;
+	color: #FFFFFF;
+	margin-top: -95px;
+	margin-bottom: 10px;
+	line-height:20px;
+	padding:12px;
+}
+
+.calculation p {
+	font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    padding: 10px 15px;
+    text-align: center;
+    line-height: 20px;
+}	
+	
+
+.numbers{
+	
+	padding:10px;
+	
+	}
+.numbers table {
+	color: #FFFFFF;
+	font-size: 14px;
+}
+
+.better {
+	background:#fff;
+	border-radius:10px;	
+	float: left;
+	width:500px;
+    height: 320px;
+    padding: 0 10px;
+    position: relative;
+	margin-top: 5px;
+	 padding-top:20px;
+	 padding-left: 20px;
+}
+
+.better-print{ visibility:hidden; }
+	 	
+.better h4 {
+	text-align: center;
+	font-size:15px;
+  	margin: 10px 0;
+  	font-family: "Raleway";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.item i, item img{
+	margin-top:15px !important;
+	padding-bottom: 10px !important;
+}
+.item {
+	color: #fff;
+	margin-top: 10px;
+	background:#0DBFEF;
+	border-radius: 10px;
+	float: left;
+ 	height: 200px;
+ 	margin-right: 15px;
+    width: 143px;
+    padding: 20px;
+    line-height: 17px;
+    font-weight: 400;
+   
+}
+.main .item img{
+
+}
+.item table { padding:0 10px; }
+.item p{
+	color:#ffffff;
+}
+.info{
+ background:#3AB2B0;
+    border-radius: 10px;
+    color: #ffffff;
+    float: left;
+    height: 390px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    position: relative;
+}
+.info h4{
+	color:#fff;
+	font-family: "Raleway";
+	padding:20px;
+	font-weight: 400;
+	font-size: 20px;
+}
+.info ul{
+	
+	padding-left:30px;
+	margin-top: 90px;
+	list-style-type: circle;
+	list-style-position: inside;
+}
+
+.info ul li{
+	list-style-type: disc;
+	list-style-position: outside;
+}
+
+.column {
+	float: left;
+  	height: 191px;
+    margin-right: 4px;
+    padding: 5px;
+	width: 430px;
+}
+.label{ font-size: 20px; color:#ffffff; margin: 5px 0; }
+.help {
+	float: left;
+    position: relative;
+    height:389px;
+    width:500px;
+	}
+	.help h4{
+		font-size:20px;
+		padding:16px 2px 12px;
+		color:#ffffff;
+	}
+	.help ul{
+		padding-left: 0;
+		margin-top:0px;
+		padding-top: 10px;
+	}
+	.help ul li{
+		  display: inline-table;
+    height: auto;
+    margin-top: -4px;
+    width: 248px;
+   
+   
+	}
+	.better i{
+		font-size: 45px;
+		margin-bottom: 5px;
+		color:#fff;
+
+	}
+	.help .main ul{
+		padding-bottom: 0;
+		padding-left: 0;
+		margin-top: 10px;
+	}
+.help ul li a{
+	font-size:28px;
+	border-radius: 10px;
+}	
+.help ul li a small{
+	font-size: 14px;
+}
+.help .nav-footer a {
+	margin-bottom: 0;
+	padding:10px;
+}
+	
+	.help #menu-item-162{
+		width:500px !important;
+
+	}	
+	.help #menu-item-162 a{
+	
+	}
+	.help #menu-item-162 small{
+		font-size: 14px;
+	}
+	.help  #menu-item-171 a{
+		padding-bottom: 57px;
+	}
+	.help  #menu-item-172 a{
+		padding-bottom: 40px;
+	}
+	.help .nav-footer .item-phone a:after {
+    bottom: 15px;
+    content: "(800) QUIT-NOW";
+    font-size: 0.8em;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+}
+
+
+
+.help-item p { color: #3b2913; font-size: 22px; margin: 30px 0 -15px; font-weight: bold;  }
+
+.help-print{ visibility:hidden; }
+	 	
+.footer-cal{
+	border-radius: 0px 0px 10px 10px;
+	background: #20536C;
+	height: 17px;
+	margin-top: -5px;
+	margin-bottom: 20px;
+}
+
+.red{
+	color:#E95425 !important;
+}
+
+.brightblue{
+
+}
+.darkblue{
+	background: #3C80BF !important;
+}
+.bluegreen{
+	background: #1389B0 !important;
+}
+
+
+
+
