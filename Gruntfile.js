@@ -56,12 +56,12 @@ module.exports = function (grunt){
         dist: {
             options: {
                 src: "./",
-                dest: "../802Quits-Map_Production"
+                dest: "../802Quits-Calculator_Production"
             }
         },
         stage: {
             options: {
-                src: "../802Quits-Map_Production",
+                src: "../802Quits-Calculator_Production",
                 dest: "/var/www/site",
                 host: "user@staging-host",
                 // delete: true // Careful this option could cause data loss, read the docs!
@@ -69,7 +69,7 @@ module.exports = function (grunt){
         },
         prod: {
             options: {
-                src: "../802Quits-Map_Production",
+                src: "../802Quits-Calculator_Production",
                 dest: "/var/www/site",
                 host: "user@live-host",
                 //delete: true // Careful this option could cause data loss, read the docs!

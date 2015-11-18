@@ -50,7 +50,7 @@
 			var TOTAL_INIT = 1;
 			var COST_MAX = 10;
 			var COST_INIT = 4;
-			
+			$(".range").slider();
 			$(function() {
 				started_slider = $("#year_started div.slider");
 				started_count = $("#year_started input[type=text]");
@@ -172,10 +172,10 @@
 					}
 					$.ajax({  
 					    type: "post",  
-					    url: 'http://localhost/htdocs/CLIENT_WP_MULTISITE/802v2/save/',   // needs to be /save/
+					    url: '/save/',   // needs to be /save/
 					    data: "id="+randomstring+"&age_started="+ started_count.val()+"&current_age="+ age_count.val()+"&average_packs="+ total_count.val()+"&current_price="+ cost_count.val().replace("$", "") +"&money_spent="+ nominal.val().replace("$", "") +"&true_cost="+ real.val().replace("$", "")+"&six_months="+ six_months.val().replace("$", "")+"&one_year="+ one_year.val().replace("$", "")+"&five_years="+ five_years.val().replace("$", "")+"&ten_years="+ ten_years.val().replace("$", "")+"&twenty_years="+ twenty_years.val().replace("$", ""),
 					    success: function(){  
-					    window.open ("http://localhost/htdocs/CLIENT_WP_MULTISITE/802v2/report?id="+randomstring,"_self"); // /report/
+					    	window.open ("/report?id="+randomstring,"_self"); // /report/
 						}  
 					});  
 			    });  
