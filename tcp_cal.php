@@ -12,7 +12,7 @@ phpenv local 5.5
 # yes yes | pecl install memcache
 
 # Install dependencies through Composer
-composer install --prefer-source --no-interaction
+#composer install --prefer-source --no-interaction
 
 	require_once("tcp_cal_scripts.php");
 	require_once("tcp_cal_shortcode.php");
