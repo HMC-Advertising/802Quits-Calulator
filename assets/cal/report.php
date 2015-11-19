@@ -96,7 +96,7 @@
 ?>
 
   <div onLoad="loadp()" onUnload="loadp()" >
-  <div id="container">
+  <div id="container" class="cal_report">
     <div class="wrapper">
       <div style="clear:both"></div>
       <div class="header_cal"></div>

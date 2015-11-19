@@ -2,6 +2,7 @@
 
 	function pl_scripts(){
 		global $is_ie;
+		wp_register_style('mm-style', plugins_url("802Quits-Calculator_Production/assets/style/css/style.css") );
 		wp_register_style('cal-style', plugins_url("802Quits-Calculator_Production/assets/style/css/main.css") );
 		wp_register_style('report-style', plugins_url("802Quits-Calculator_Production/assets/style/css/report.css") );
 		wp_register_style('jQuery-UI', plugins_url("802Quits-Calculator_Production/assets/style/css/aristo/jquery-ui-1.8.7.custom.css") );
@@ -33,6 +34,8 @@
 		if(is_page('report')){
 			if($is_ie) wp_enqueue_style('report-style-IE');
 			else 	wp_enqueue_style('report-style');
+
+			wp_enqueue_style('mm-style');
 		}
 
 
